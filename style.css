@@ -1,0 +1,483 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  /* Containers */
+  
+  .container-fluid{
+    padding: 20% 15%;
+    height: 100vh;
+  }
+
+  /* Navigation Bar */
+  
+  .navbar {
+    width:100%;
+    background-color: #32314d;
+    position:fixed;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky{
+    background-color: white;
+    position:fixed;
+    z-index: 1;
+  }
+  .navbar.sticky .navbar-brand{
+    color:#32314d;
+  }
+  .navbar.sticky .nav-link{
+    color:#32314d;
+  }
+  .navbar.sticky .nav-link:hover{
+    color:black;
+  }
+  .navbar.sticky button{
+    background-color: #32314d;
+  }
+  .navbar button{
+    background-color:grey;
+  }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:white;
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+ .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: white;
+  }
+  .home{
+    background-color: #32314d;
+    color:white;
+    text-align: left;
+  }
+  .home h1{
+    font-weight: 700;
+    text-align: center;
+  }
+  .home p{
+    font-size:25px;
+    text-align: center;
+  }
+  .home img{
+    height:300px;
+    width:300px;
+    position: relative;
+    bottom: 80px;
+    left:40px;
+  }
+ hr{
+   border:0;
+   border-bottom: 5px dotted grey;
+   width:20%;
+   align-items: center;
+  padding-top: 25%;
+ }
+ .down{
+  padding-top: 5%;
+  padding-bottom: 5%;
+ }
+  .abtcontainer{
+    padding: 15% 15%;
+    height: 100vh;
+  }
+  .abtcontainer h2{
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .abtcontainer p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+  .educontainer{
+    padding:15% 15%;
+    height: 100vh;
+  }
+  .educontainer h2{
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .educontainer table{
+      margin:auto;
+    border-collapse: separate;
+    border-spacing: 2em 2em;
+  }
+  .educontainer table th{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .educontainer table td{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .interncontainer{
+    padding:15% 20%;
+    height:100vh;
+  }
+  .interncontainer h2{
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .interncontainer .col-lg-12{
+    margin:15px;
+  }
+  /* Cursor Styling */
+  .procontainer{
+    height:100vh;
+    padding:12% 15%;
+  }
+  .procontainer h2{
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .procontainer p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+  .procontainer img{
+    height:200px;
+    width:200px;
+    margin:20px;
+  }
+  .carousel slide{
+    margin:15px;
+  }
+.carousel-control-prev{
+  background-color: grey;
+  align-items: center;
+  padding:25px;
+}
+.carousel-control-next{
+  background-color: grey;
+  align-items: center;
+}
+ 
+  
+.skills{
+  height: 100vh;
+}
+.skills h2{
+  padding: 85px;
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+}
+.skills .skills-content{
+  position: relative;
+  left:25%;
+}
+
+.skills .skills-content .left a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+  color: crimson;
+  background: none;
+}
+.skills .skills-content .right .bars{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background:#32314d;
+}
+.skills-content .right .html::before{
+  width: 90%;
+}
+.skills-content .right .css::before{
+  width: 60%;
+}
+.skills-content .right .js::before{
+  width: 80%;
+}
+.skills-content .right .php::before{
+  width: 50%;
+}
+.skills-content .right .mysql::before{
+  width: 70%;
+}
+
+
+
+.contact{
+  height:100vh;
+    padding:12% 15%;
+}
+
+
+.contact .contact-content .column{
+  width: calc(30% - 10px);
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+  text-align: justify;
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+}
+.contact .column.right{
+   position: relative;
+   left:35%;
+}
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .email{
+  margin-left: 10px;  
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button{
+  height: 47px;
+  width: 170px;
+}
+.contact .right form .button button{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #32314d;
+  background: #32314d;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  left:30%;
+}
+.contact .right form .button button:hover{
+  color:#32314d;
+  background: none;
+}
+/* footer section styling */
+footer{
+  background: #32314d;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
+  @media (max-width: 1028px) {
+    .container-fluid{
+      padding: 50% 25%;
+
+    }
+    .home h1{
+      text-align: center;
+      padding:10px 70px;
+      position: relative;
+      left:0;
+      bottom:150px;
+      font-size:40px;
+    }
+    .home p{
+      text-align: center;
+      padding: 10px 70px;
+      position: relative;
+      left:0;
+      bottom:150px;
+      font-size:30px;
+    }
+     .home img{
+       margin:70px;
+       position: relative;
+       left:0;
+       height:400px;
+       width:400px;
+     }
+     .abtcontainer{
+      padding: 50% 15%;
+    }
+  .abtcontainer h2{
+    font-weight:900;
+    font-size:70px;
+    line-height: 2;
+  }
+  .abtcontainer p{
+    font-weight:700;
+    font-size:30px;
+    line-height: 1.7;
+  }
+  .educontainer{
+    padding:50% 15%;
+  }
+  .educontainer h2{
+    font-weight:900;
+    font-size:70px;
+    line-height: 2;
+  }
+  .educontainer table th{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .educontainer table td{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .interncontainer{
+    padding:50% 15%;
+  }
+  .interncontainer h2{
+    font-weight:900;
+    font-size:70px;
+    line-height: 2;
+  }
+  .interncontainer h4{
+    font-weight:700;
+    font-size:30px;
+    line-height: 1.7;
+  }
+  .interncontainer p{
+    font-weight:600;
+    font-size:25px;
+    line-height: 1.7;
+  }
+  .procontainer {
+    padding:50% 15%;
+  }
+  .procontainer h2{
+    font-weight:900;
+    font-size:70px;
+    line-height: 2;
+  }
+  .procontainer p{
+    font-weight:600;
+  font-size:25px;
+  line-height: 1.7;
+  padding:25px;
+  }
+  .procontainer img{
+    height:500px;
+   width:500px;
+   padding:25px;
+  }
+  .carousel-control-prev{
+    background-color: white;
+  }
+  .carousel-control-next{
+    background-color: white;
+ }
+ .skills{
+  padding:50% 15%;
+ }
+ .contact{
+  padding:50% 15%;
+ }
+ .contact h2{
+  font-weight:900;
+  font-size:70px;
+  line-height: 2;
+}
+.contact .text{
+  font-size: 50px;
+}
+.contact .form{
+  width:100px;
+}
+ .contact button{
+   position: relative;
+   left: 18%;
+ }
+}
